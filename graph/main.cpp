@@ -1,0 +1,23 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include "graph.h"
+using namespace std;
+
+int main()
+{
+  
+    Adjlist G;
+    Graph graph;
+    graph.graph1();
+    graph.listVertexes();
+    graph.listEdges();
+    graph.print_graph1();
+    graph.graph2(G);
+    graph.listVertexes();
+    graph.listEdges();
+    graph.print_graph2(G);
+
+    system("pause");
+    return 0;
+}
